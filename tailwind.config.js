@@ -8,11 +8,16 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        'logo': `url('/logo.png')`,
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'cci-blue': '#427bb1',
+        'cci-green': '#02a850',
+      },
     },
   },
   plugins: [],
-}
+};
